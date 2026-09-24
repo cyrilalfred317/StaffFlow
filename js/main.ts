@@ -210,6 +210,6 @@ employeeList.addEventListener("click", function (event) {
     event.target instanceof Element &&
     event.target.classList.contains("sack-btn")
   ) {
-    console.log("btn clicked");
+    console.log("btn clicked!");
   }
 });
