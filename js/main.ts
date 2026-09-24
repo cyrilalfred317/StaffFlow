@@ -199,6 +199,8 @@ function isEmployeeRole(value: string): value is EmployeeRole {
   return value === "Dev" || value === "Designer" || value === "Manager";
 }
 
+//Sack Employee Feature branch update
+
 employeeList.addEventListener("click", function (event) {
   event.preventDefault();
   console.log("clicked");
