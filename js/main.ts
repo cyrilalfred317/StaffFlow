@@ -128,6 +128,8 @@ function renderEmployees(): void {
     const detail = document.createElement("p");
     detail.textContent = employee.getRoleDetail();
 
+    card.classList.add("employee-card");
+
     const deleteEmployee = document.createElement("button");
     deleteEmployee.classList.add("sack-btn");
     deleteEmployee.dataset;
